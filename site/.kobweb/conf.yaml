@@ -1,0 +1,14 @@
+site:
+  title: "EsauWeb"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/esaudev.js"
+      api: "build/libs/esaudev.jar"
+    prod:
+      script: "build/distributions/esaudev.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
