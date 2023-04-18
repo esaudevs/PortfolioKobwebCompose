@@ -19,4 +19,18 @@ object Res {
         const val AndroidAndy = "android_andy.png"
         const val AboutImage = "about_image.png"
     }
+    object Icon {
+        const val web = "web_icon.svg"
+        const val seo = "seo_icon.svg"
+        const val design = "design_icon.svg"
+        const val business = "business_icon.svg"
+        const val apple = "apple_icon.svg"
+        const val android = "android_icon.svg"
+        const val link = "link_icon.svg"
+        const val user = "user_icon.svg"
+        const val shield = "shield_icon.svg"
+        const val happy = "happy_icon.svg"
+        const val checkmark = "checkmark_icon.svg"
+        const val star = "star_icon.svg"
+    }
 }
