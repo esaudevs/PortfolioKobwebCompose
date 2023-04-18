@@ -1,6 +1,7 @@
 package com.esaudev.util
 
 object Constants {
+    const val WEBSITE = "https://stevdza-san.com/"
     const val SECTION_WIDTH = 1920
     const val FONT_FAMILY = "Helvetica"
 
@@ -18,6 +19,11 @@ object Res {
         const val Logo = "android_logo.svg"
         const val AndroidAndy = "android_andy.png"
         const val AboutImage = "about_image.png"
+        const val Portfolio1 = "portfolio1.png"
+        const val Portfolio2 = "portfolio2.png"
+        const val Portfolio3 = "portfolio3.png"
+        const val Portfolio4 = "portfolio4.jpg"
+        const val Portfolio5 = "portfolio5.png"
     }
     object Icon {
         const val web = "web_icon.svg"
