@@ -1,6 +1,7 @@
 package com.esaudev.pages
 
 import androidx.compose.runtime.*
+import com.esaudev.sections.AboutSection
 import com.esaudev.sections.MainSection
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -18,5 +19,6 @@ fun HomePage() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         MainSection()
+        AboutSection()
     }
 }
