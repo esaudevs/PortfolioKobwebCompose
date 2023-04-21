@@ -1,6 +1,7 @@
 package com.esaudev.pages
 
 import androidx.compose.runtime.*
+import com.esaudev.models.Achievement
 import com.esaudev.sections.*
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -21,5 +22,6 @@ fun HomePage() {
         AboutSection()
         ServiceSection()
         PortfolioSection()
+        AchievementsSection()
     }
 }
