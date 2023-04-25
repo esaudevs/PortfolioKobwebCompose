@@ -26,5 +26,6 @@ fun HomePage() {
         TestimonialSection()
         ExperienceSection()
         ContactSection()
+        FooterSection()
     }
 }
