@@ -5,31 +5,25 @@ import com.esaudev.util.Res
 enum class Portfolio(
     val image: String,
     val title: String,
-    val description: String
+    val description: String,
+    val link: String
 ) {
     One(
-        image = Res.Image.Portfolio1,
-        title = "Kudoe",
-        description = "Web Design"
+        image = Res.Image.PortfolioMyLeague,
+        title = "My league",
+        description = "Native android application to manage soccer tournaments in real time",
+        link = "https://play.google.com/store/apps/details?id=com.esaudev.footballtournament"
     ),
     Two(
-        image = Res.Image.Portfolio2,
-        title = "Landing Page for NFT",
-        description = "Frontend"
+        image = Res.Image.PortfolioSplitFair,
+        title = "SplitFair",
+        description = "Native android application to manage expenses with friends",
+        link = "https://play.google.com/store/apps/details?id=com.esaudev.splitfair"
     ),
     Three(
-        image = Res.Image.Portfolio3,
-        title = "NFT Application",
-        description = "Frontend/Backend"
-    ),
-    Four(
-        image = Res.Image.Portfolio4,
-        title = "Game Statistics Application",
-        description = "Web/Mobile App"
-    ),
-    Five(
-        image = Res.Image.Portfolio5,
-        title = "Platform for Online Courses",
-        description = "Web/Mobile App"
+        image = Res.Image.PortfolioYoutube,
+        title = "Code with Esau",
+        description = "Youtube channel focused on Android development and tutorials",
+        link = "https://www.youtube.com/@CodeWithEsau"
     )
 }

@@ -127,7 +127,10 @@ fun AboutMe() {
                 .color(Theme.Secondary.rgb)
                 .toAttrs()
         ) {
-            Text(LOREM_IPSUM_SHORT)
+            Text("I have close to two years of experience working with multidisciplinary teams focusing on the " +
+                    "development of Android applications, I have had the opportunity to work on projects for one of the" +
+                    " largest multinational store corporations, maintaining its main ecommerce application with More than" +
+                    " 10 million downloads for the Mexican market\n")
         }
         Skill.values().forEach { skill ->
             SkillBar(

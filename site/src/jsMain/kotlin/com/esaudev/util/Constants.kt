@@ -31,12 +31,16 @@ object Res {
         const val Portfolio3 = "portfolio3.png"
         const val Portfolio4 = "portfolio4.jpg"
         const val Portfolio5 = "portfolio5.png"
+        const val PortfolioMyLeague = "portfolio_my_league.png"
+        const val PortfolioYoutube = "portfolio_youtube.png"
+        const val PortfolioSplitFair = "portfolio_splitfair.png"
         const val Avatar1 = "avatar1.png"
         const val Avatar2 = "avatar2.png"
         const val Avatar3 = "avatar3.png"
         const val Avatar4 = "avatar4.png"
         const val Avatar5 = "avatar5.png"
         const val Avatar6 = "avatar6.png"
+        const val Compose = "compose.png"
     }
     object Icon {
         const val web = "web_icon.svg"
@@ -51,5 +55,8 @@ object Res {
         const val happy = "happy_icon.svg"
         const val checkmark = "checkmark_icon.svg"
         const val star = "star_icon.svg"
+        const val database = "database.svg"
+        const val network = "network.svg"
+        const val injection = "injection.svg"
     }
 }

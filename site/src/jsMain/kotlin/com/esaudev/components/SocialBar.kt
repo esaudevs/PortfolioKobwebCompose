@@ -49,7 +49,7 @@ fun SocialBar(row: Boolean = false) {
 @Composable
 private fun SocialLinks(row: Boolean = false) {
     Link(
-        path = "",
+        path = "https://www.facebook.com/esauggg/",
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         FaFacebook(
@@ -61,7 +61,7 @@ private fun SocialLinks(row: Boolean = false) {
         )
     }
     Link(
-        path = "",
+        path = "https://twitter.com/AlanEsa89258795",
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         FaTwitter(
@@ -73,7 +73,7 @@ private fun SocialLinks(row: Boolean = false) {
         )
     }
     Link(
-        path = "",
+        path = "https://www.instagram.com/essaugg/",
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         FaInstagram(
@@ -85,7 +85,7 @@ private fun SocialLinks(row: Boolean = false) {
         )
     }
     Link(
-        path = "",
+        path = "https://www.linkedin.com/in/alan-esau-garcia-gutierrez-6b027110b/",
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         FaLinkedin(

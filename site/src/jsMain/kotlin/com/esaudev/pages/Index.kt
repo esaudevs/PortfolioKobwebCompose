@@ -32,7 +32,7 @@ fun HomePage() {
             ServiceSection()
             PortfolioSection()
             AchievementsSection()
-            TestimonialSection()
+            //TestimonialSection()
             ExperienceSection()
             ContactSection()
             FooterSection()

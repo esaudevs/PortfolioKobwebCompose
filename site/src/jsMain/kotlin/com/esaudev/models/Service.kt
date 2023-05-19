@@ -1,6 +1,5 @@
 package com.esaudev.models
 
-import com.esaudev.util.Constants.LOREM_IPSUM_SHORTEST
 import com.esaudev.util.Res
 
 enum class Service(
@@ -13,36 +12,37 @@ enum class Service(
         icon = Res.Icon.android,
         imageDesc = "Android Icon",
         title = "Android Development",
-        description = LOREM_IPSUM_SHORTEST
+        description = "General android development knowledge, android lifecycle, navigation, services, etc."
     ),
     IOS(
-        icon = Res.Icon.apple,
-        imageDesc = "Apple Icon",
-        title = "iOS Development",
-        description = LOREM_IPSUM_SHORTEST
+        icon = Res.Image.Compose,
+        imageDesc = "Compose Icon",
+        title = "Jetpack Compose",
+        description = "I am using Jetpack Compose for all my new projects."
     ),
     Web(
         icon = Res.Icon.web,
         imageDesc = "Desktop Icon",
         title = "Web Development",
-        description = LOREM_IPSUM_SHORTEST
+        description = "Basic knowledge about Kotlin multiplatform for Web and Server side"
     ),
     Design(
-        icon = Res.Icon.design,
-        imageDesc = "Pen Icon",
-        title = "UX/UI Design",
-        description = LOREM_IPSUM_SHORTEST
+        icon = Res.Icon.injection,
+        imageDesc = "Dependency Injection Icon",
+        title = "Dependency Injection",
+        description = "2 years of experience using Dagger Hilt, basic knowledge of Koin"
     ),
     Business(
-        icon = Res.Icon.business,
-        imageDesc = "Chart Icon",
-        title = "Business Analysis",
-        description = LOREM_IPSUM_SHORTEST
+        icon = Res.Icon.database,
+        imageDesc = "Persistence Icon",
+        title = "Persistence",
+        description = "Experience using Room for data persistence layer, experience using migrations and " +
+                "relational databases"
     ),
     SEO(
-        icon = Res.Icon.seo,
-        imageDesc = "Megaphone Icon",
-        title = "SEO Marketing",
-        description = LOREM_IPSUM_SHORTEST
+        icon = Res.Icon.network,
+        imageDesc = "Network icon",
+        title = "Network",
+        description = "I have worked with libraries like Retrofit and Apollo for GraphQl apps"
     )
 }

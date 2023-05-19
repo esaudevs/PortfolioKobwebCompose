@@ -29,13 +29,12 @@ import org.jetbrains.compose.web.dom.Text
 @Composable
 fun PortfolioCard(
     modifier: Modifier = Modifier,
-    portfolio: Portfolio,
-    link: String = WEBSITE
+    portfolio: Portfolio
 ) {
     Link(
         modifier = PortfolioSectionStyle.toModifier()
             .textDecorationLine(TextDecorationLine.None),
-        path = link,
+        path = portfolio.link,
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         Column(modifier = modifier.id("columnParent")) {

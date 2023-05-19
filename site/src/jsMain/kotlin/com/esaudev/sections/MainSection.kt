@@ -128,7 +128,7 @@ fun MainText(breakpoint: Breakpoint) {
                     .color(Theme.Secondary.rgb)
                     .toAttrs()
             ) {
-                Text("Mobile & Kotlin Developer/Advocate")
+                Text("Mobile developer & Kotlin enthusiast")
             }
             P(
                 attrs = Modifier
@@ -141,7 +141,8 @@ fun MainText(breakpoint: Breakpoint) {
                     .color(Theme.Secondary.rgb)
                     .toAttrs()
             ) {
-                Text(Constants.LOREM_IPSUM_SHORTEST)
+                Text("Mobile application developer with experience in starting projects from scratch. Skill in Android development " +
+                        "with Kotlin. Strong engineering professional with a bachelor's degree focused on telecommunications.")
             }
             Button(
                 attrs = MainButtonStyle.toModifier()
