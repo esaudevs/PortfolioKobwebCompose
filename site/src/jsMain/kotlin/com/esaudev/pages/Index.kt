@@ -2,6 +2,7 @@ package com.esaudev.pages
 
 import androidx.compose.runtime.*
 import com.esaudev.components.BackToTopButton
+import com.esaudev.components.OverflowMenu
 import com.esaudev.models.Achievement
 import com.esaudev.sections.*
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
@@ -15,6 +16,9 @@ import com.varabyte.kobweb.core.Page
 @Page
 @Composable
 fun HomePage() {
+
+    var menuOpened by remember { mutableStateOf(false) }
+
     Box(
         modifier = Modifier.fillMaxSize()
     ) {
@@ -23,7 +27,7 @@ fun HomePage() {
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            MainSection()
+            MainSection(onMenuClick = { menuOpened = true })
             AboutSection()
             ServiceSection()
             PortfolioSection()
@@ -35,5 +39,9 @@ fun HomePage() {
         }
 
         BackToTopButton()
+
+        if (menuOpened) {
+            OverflowMenu(onMenuClosed = { menuOpened = false })
+        }
     }
 }

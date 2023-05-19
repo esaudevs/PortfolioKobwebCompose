@@ -35,7 +35,7 @@ import org.jetbrains.compose.web.dom.P
 import org.jetbrains.compose.web.dom.Text
 
 @Composable
-fun MainSection() {
+fun MainSection(onMenuClick: () -> Unit) {
     Box(
         modifier = Modifier
             .id(Section.Home.id)
@@ -43,7 +43,7 @@ fun MainSection() {
         contentAlignment = Alignment.TopCenter
     ) {
         MainBackground()
-        MainContent()
+        MainContent(onMenuClick = onMenuClick)
     }
 }
 
@@ -59,14 +59,16 @@ fun MainBackground() {
 }
 
 @Composable
-fun MainContent() {
+fun MainContent(onMenuClick: () -> Unit) {
     val breakpoint by rememberBreakpoint()
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(bottom = if (breakpoint > Breakpoint.MD) 300.px else 80.px),
         verticalArrangement = Arrangement.SpaceBetween,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Header()
+        Header(onMenuClick = onMenuClick)
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
@@ -91,7 +93,7 @@ fun MainText(breakpoint: Breakpoint) {
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        if (breakpoint >= Breakpoint.MD) {
+        if (breakpoint > Breakpoint.MD) {
             SocialBar()
         }
         Column {
